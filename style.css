@@ -30,11 +30,13 @@ main {
     background-color: #A1C7DA;
     overflow-y: auto;
     position: relative;
+    background-size: cover;
 }
 
 body {
     margin: 60px auto;
 }
+
 
 /* above are CSS properties from previously-started portfolio project */
 
