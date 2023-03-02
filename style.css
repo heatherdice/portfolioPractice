@@ -58,6 +58,10 @@ body {
     width: 10%;
 }
 
+.tech-icon:hover {
+    transform: scale(1.2);
+}
+
 /* contact */
 .fa-envelope {
     color: #F7F1E5;
