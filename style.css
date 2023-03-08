@@ -75,15 +75,6 @@ body {
 
 /* below are CSS properties from SheCodes practice project */
 
-/* h1, h2, h3 {
-    text-align: center;
-    margin: 0;
-}
-
-h3 {
-    opacity: 0.7;
-} */
-
 .navigation-links, .app-links {
     display: flex;
     margin-top: 40px;
@@ -122,10 +113,6 @@ h3 {
     margin: 0;
 }
 
-.yoga-description {
-    text-align: start;
-}
-
 p {
     padding: 20px;
     border-radius: 4px;
@@ -133,26 +120,3 @@ p {
     line-height: 1.5;
     text-align: center;
 }
-
-  /* SheCodes practice project nav bar */
-/* .about-link {
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-}
-
-.homepage-link {
-    color: var(--primary-color);
-    text-align: center;
-    display: block;
-}
-
-.email-link {
-    display: flex;
-    justify-content: center;
-    color: var(--primary-color);
-    text-decoration: none;
-}
-
-.email-link:hover {
-    text-decoration: underline;
-} */
