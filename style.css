@@ -10,6 +10,7 @@
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
 }
+
 /* header */
 .title-inner {
     background-image: url("images/header2.svg");
@@ -54,6 +55,9 @@ body {
     .app-description-left, .wandershare-title, .wandershare-link {
         margin-left: 4rem;
     }
+    .app-img { /*removes rounded corners - why?? */
+        padding: 0rem 2rem;
+    }
 }
 
 p {
@@ -71,7 +75,6 @@ p {
 }
 
 /* Projects */
-
 .app-links {
     display: flex;
     margin-top: 40px;
