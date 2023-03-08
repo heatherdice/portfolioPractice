@@ -48,8 +48,11 @@ body {
 }
 
 @media (min-width: 769px) { /* properties for tablets and larger */
-    .about-me-paragraph {
+    .about-me-paragraph, .app-description-right {
         margin-right: 4rem;
+    }
+    .app-description-left, .wandershare-title, .wandershare-link {
+        margin-left: 4rem;
     }
 }
 
@@ -109,14 +112,7 @@ body {
     color: white;
 }
 
-.yoga-link {
-    margin: 0;
-}
-
 p {
-    padding: 20px;
     border-radius: 4px;
-    font-size: 18px;
     line-height: 1.5;
-    text-align: center;
 }
