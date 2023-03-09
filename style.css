@@ -27,7 +27,7 @@
 }
 
 /* content */
-main {
+main, footer {
     background-color: #A1C7DA;
     overflow-y: auto;
     position: relative;
