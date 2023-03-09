@@ -55,8 +55,8 @@ body {
     .app-description-left, .wandershare-title, .wandershare-link {
         margin-left: 4rem;
     }
-    .app-img { /*removes rounded corners - why?? */
-        padding: 0rem 2rem;
+    .img-col {
+        padding: 4rem;
     }
 }
 
