@@ -39,24 +39,28 @@ body {
 }
 
 @media (max-width: 768px) { /* properties for mobile devices */
-    .about-me-title {
+    .about-me-title, .project-title {
         padding-top: 1.5rem;
     }
     .about-me-paragraph {
         padding: 0;
         margin: 0;
     }
+    /* .app-links {
+        align-self: center;
+    } */
 }
 
 @media (min-width: 769px) { /* properties for tablets and larger */
     .about-me-paragraph, .app-description-right {
-        margin-right: 4rem;
+        margin-right: 2rem;
     }
     .app-description-left, .wandershare-title, .wandershare-link {
-        margin-left: 4rem;
+        margin-left: 2rem;
     }
     .img-col {
-        padding: 4rem;
+        padding: 2rem;
+        margin: 2rem;
     }
 }
 
