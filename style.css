@@ -37,20 +37,27 @@ body {
     margin: 60px auto;
 }
 @media (max-width: 768px) { /* properties for mobile devices */
-    .about-me-title, .project-title {
+    .about-me-title, .project-title-right, .project-title-left {
         padding-top: 1.5rem;
     }
     .about-me-paragraph {
         padding: 0;
         margin: 0;
     }
-    /* .app-links {
-        align-self: center;
-    } */
+    .project-title-left, .project-title-right, .app-description-left, .app-description-right {
+        text-align: center;
+    }
+    .app-links {
+        justify-content: center;
+    }
+
 }
 @media (min-width: 769px) { /* properties for tablets and larger */
     .about-me-paragraph, .app-description-right {
         margin-right: 2rem;
+    }
+    .project-title-left, .project-title-right, .app-description-left, .app-description-right {
+        text-align: start;
     }
     .app-description-left, .wandershare-title, .wandershare-link {
         margin-left: 2rem;
@@ -62,6 +69,9 @@ body {
     .img-col-right {
         padding: 2rem;
         margin: 0rem 2rem 2rem 0rem;
+    }
+    .app-links {
+        justify-content: left;
     }
 }
 p {
@@ -81,7 +91,7 @@ p {
 .app-links {
     display: flex;
     margin-top: 40px;
-    justify-content: left;
+    /* justify-content: left; */
 }
 .app-links a {
     border-radius: 4px;
