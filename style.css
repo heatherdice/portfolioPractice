@@ -59,13 +59,13 @@ body {
     .project-title-left, .project-title-right, .app-description-left, .app-description-right {
         text-align: start;
     }
-    .app-description-left, .wandershare-title, .wandershare-link {
+    .app-description-left, .project-title-left, .wandershare-link {
         margin-left: 2rem;
     }
-    .img-col-left {
+    /* .img-col-left {
         padding: 2rem;
         margin: 2rem;
-    }
+    } */
     .img-col-right {
         padding: 2rem;
         margin: 0rem 2rem 2rem 0rem;
