@@ -86,7 +86,6 @@ p {
 .app-links {
     display: flex;
     margin-top: 40px;
-    /* justify-content: left; */
 }
 .app-links a {
     border-radius: 4px;
