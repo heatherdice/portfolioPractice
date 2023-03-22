@@ -50,7 +50,10 @@ body {
     .app-links {
         justify-content: center;
     }
-
+    .even-project {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 @media (min-width: 769px) { /* properties for tablets and larger */
     .about-me-paragraph, .app-description-right {
