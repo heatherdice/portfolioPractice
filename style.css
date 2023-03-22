@@ -62,14 +62,6 @@ body {
     .app-description-left, .project-title-left, .wandershare-link {
         margin-left: 2rem;
     }
-    /* .img-col-left {
-        padding: 2rem;
-        margin: 2rem;
-    } */
-    .img-col-right {
-        padding: 2rem;
-        margin: 0rem 2rem 2rem 0rem;
-    }
     .app-links {
         justify-content: left;
     }
