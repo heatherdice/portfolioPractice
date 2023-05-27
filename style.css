@@ -62,7 +62,7 @@ body {
     .project-title-left, .project-title-right, .app-description-left, .app-description-right {
         text-align: start;
     }
-    .app-description-left, .project-title-left, .wandershare-link {
+    .app-description-left, .project-title-left, .app-link-left {
         margin-left: 2rem;
     }
     .app-links {
