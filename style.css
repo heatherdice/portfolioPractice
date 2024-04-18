@@ -100,6 +100,10 @@ p {
     box-shadow: var(--box-shadow);
     color: var(--secondary-color);
 }
+video {
+    max-width: 100%;
+    height: auto;
+}
 
 /* Experience (accordion) */
 .accordion {
